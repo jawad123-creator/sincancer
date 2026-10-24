@@ -12,3 +12,10 @@
 .ad-320x50{width:320px;display:none}
 .ad-wide{padding-top:4px;padding-bottom:32px}
 @media(max-width:600px){.ad-728x90{display:none}.ad-320x50{display:flex;width:320px}.ad-section{padding-left:10px;padding-right:10px}}
+
+/* Additional ad formats */
+.ad-native{width:100%;max-width:100%;min-height:0;margin-top:18px}
+.smartlink-box{margin:22px auto 0;max-width:420px;padding:15px 18px;border:1px solid var(--line);background:#fffdf8;display:flex;align-items:center;justify-content:space-between;gap:16px;text-align:left}
+.smartlink-box span{font-size:9px;letter-spacing:1px;color:#758078;font-weight:700}
+.smartlink-box a{font-size:12px;color:var(--green);font-weight:700;border-bottom:1px solid #cba76d;padding-bottom:3px;white-space:nowrap}
+@media(max-width:420px){.smartlink-box{flex-direction:column;align-items:flex-start}.smartlink-box a{white-space:normal}}
